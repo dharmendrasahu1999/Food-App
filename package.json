@@ -1,11 +1,8 @@
 {
   "name": "igniting-our-app",
-  "homepage": "https://dharmendrasahu1999.github.io/Food-App",
   "version": "1.0.0",
   "description": "This is igniting our app",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
